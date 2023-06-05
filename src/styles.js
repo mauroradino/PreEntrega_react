@@ -1,5 +1,3 @@
-import { marginRight } from "responsively/dist/utils/marginFunctions/marginFunctions";
-
 const styles = {
   app:{
   },
