@@ -6,7 +6,7 @@ const ItemListComponent = (props) => {
   return (
     <div style={{backgroundColor: props.back, display: "flex"}}>
       <img className='imagenInicio' src={imagen} alt='imagen de inico'/>
-      <h2>{props.saludo}</h2>
+      <h2>{props.greeting}</h2>
     </div>
   )
 }
