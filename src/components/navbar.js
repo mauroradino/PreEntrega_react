@@ -1,7 +1,8 @@
 import React from 'react'
-import './navbar.css'
+import './NavBar.css'
+import CardWidget from './CardWidget.js'
 
-function Header (props) {
+function NavBar (props) {
   return (
     <div>
       <div style={{backgroundColor:props.bgMain}} className="header">
@@ -14,9 +15,10 @@ function Header (props) {
         <li className="nav_li"><a href='index.html' className="nav_a">Contacts</a></li>
         <li className="nav_li"><a href='index.html' className="nav_a">About us</a></li>
        </ul>
+       <CardWidget className="CardWidget"/>
       </div>
     </div>
   )
 }
 
-export default Header
+export default NavBar
